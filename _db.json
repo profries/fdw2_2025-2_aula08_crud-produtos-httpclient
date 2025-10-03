@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": "548d",
+      "nome": "Arroz",
+      "preco": 3.89,
+      "marca": "Arroz Bom",
+      "dataValidade": "2026-02-20"
+    },
+    {
+      "id": "fc5c",
+      "nome": "Feijao",
+      "preco": 6.51,
+      "marca": "Marca 1",
+      "dataValidade": "2026-02-20"
+    },
+    {
+      "id": "b2ea",
+      "nome": "Refrigerante",
+      "preco": 9,
+      "marca": "Coca",
+      "dataValidade": "2027-05-20"
+    }
+  ]
+}

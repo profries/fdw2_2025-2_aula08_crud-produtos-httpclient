@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>ListCard de Produtos</h2>
+
+    <div class="row">
+    @for(prod of listaProdutos$ | async; track prod.id) {
+        <div class="col col-xl-3 col-lg-4 col-sm-6 col-12">
+            <app-card-produto class="p-3" [produto]="prod"></app-card-produto>
+        </div>
+    }
+    </div>
+</div>
