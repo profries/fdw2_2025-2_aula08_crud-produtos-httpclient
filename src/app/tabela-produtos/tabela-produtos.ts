@@ -9,7 +9,7 @@ import { ProdutoApiService } from '../produto-api-service';
 
 @Component({
   selector: 'app-tabela-produtos',
-  imports: [FormsModule, MoedaPipe, UpperCasePipe, DatePipe, RouterLink, AsyncPipe, FiltroPesquisaPipe],
+  imports: [FormsModule, MoedaPipe, UpperCasePipe, DatePipe, RouterLink, FiltroPesquisaPipe],
   templateUrl: './tabela-produtos.html',
   styleUrl: './tabela-produtos.css'
 })
